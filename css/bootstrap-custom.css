@@ -1,0 +1,11 @@
+.navbar-inner {
+  background-image: none;
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+
+.navbar {
+  font-family: 'Oswald';
+  font-size: 18px;
+  font-weight: 300;
+}
