@@ -5,3 +5,12 @@
 .logo {
   margin-left: 210px;
 }
+
+.brand {
+  text-align: center;
+}
+
+.trailer img {
+  height: 165px;
+  width: 220px;
+}

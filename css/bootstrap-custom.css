@@ -1,7 +1,10 @@
 .navbar-inner {
-  background-image: none;
-  background-color: #FFFFFF;
-  box-shadow: none;
+  height: 80px;
+  background: #313132;
+}
+
+.navbar-inner a {
+ color: #a09b9b; 
 }
 
 .navbar {
