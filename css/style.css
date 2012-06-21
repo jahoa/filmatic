@@ -1,9 +1,22 @@
+body {
+  background-color: #232426;
+  background-image: url("../img/bg.png");
+  background-image: url("../img/bg_alpha.png");
+}
+
 .film-overview {
   margin-bottom: 20px;
 }
 
 .logo {
-  margin-left: 210px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #b7494a;
+  width: 92px;
+  height: 50px;
+}
+.logo a {
+  color: #f5e7e7;
 }
 
 .brand {
@@ -13,4 +26,16 @@
 .trailer img {
   height: 165px;
   width: 220px;
+}
+
+.heading_bg {
+  background-color: #b62f30;
+  background-image: url("../img/heading_bg.png");
+  margin-bottom: 0;
+}
+
+.heading_bg h3 {
+  padding-left: 5px;
+  color: #f5f4f4;
+  text-shadow: #323131 1px 1px 0px;
 }
