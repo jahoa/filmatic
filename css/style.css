@@ -104,6 +104,22 @@ hr {
 }
 
 
+.recommend, .userprofile, .discussion, .events, .messages {
+	.height: 160px;
+	background-color: #2e2e2f;
+}
+
+.recommend h3, .userprofile h3, .discussion h3, .events h3, .messages h3 {
+	padding: 40px;
+	text-align: center;
+	color: #a09b9b; 
+} 
+
+.recommend a:hover, .userprofile a:hover, .discussion a:hover, .events a:hover, .messages a:hover {
+	text-decoration: none;
+	color: #ebebeb;
+}
+
 .table tr, .table td {
 	 font-family: 'AllerRegular', Verdana, Tahoma, sans-serif;
 	font-size: 13px;
