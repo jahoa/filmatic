@@ -2,6 +2,9 @@ body {
   padding-top: 110px;
 }
 
+p {
+	color: #FAFAFA;
+}
 	
 .navbar-inner {
   height: 68px;
