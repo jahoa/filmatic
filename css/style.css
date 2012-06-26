@@ -83,6 +83,31 @@ h3 {
 	margin-bottom: 10px;
 }
 
+.discussion ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.discussion li {
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #333;
+}
+
+.discussion a {
+	color: #FAFAFA;
+}
+
+hr {
+	background-color: #d9d8d8;
+}
+
+
+.table tr, .table td {
+	 font-family: 'AllerRegular', Verdana, Tahoma, sans-serif;
+	font-size: 13px;
+}
 .footer {
 	height: 40px;
 	margin-top: 10px;
