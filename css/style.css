@@ -5,6 +5,10 @@ body {
   .background-image: url("../img/bg_alpha.png");
 }
 
+.container {
+	margin-bottom: 60px;
+}
+
 h3 {
   color: #f5f4f4;
   text-shadow: #323131 1px 1px 0px;
@@ -18,8 +22,8 @@ h3 {
   margin-top: 10px;
   margin-right: 10px;
   background-color: #b7494a;
-  width: 92px;
-  height: 50px;
+  padding: 10px;
+  
 }
 .logo a {
   color: #f5e7e7;
@@ -35,9 +39,10 @@ h3 {
 }
 
 .heading_bg {
+	height: 34px;
   background-color: #b62f30;
   background-image: url("../img/heading_bg.png");
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .heading_bg h3 {
@@ -73,4 +78,17 @@ h3 {
 }
 #event1, #event2 {
 	margin-bottom: 10px;
+}
+
+.footer {
+	height: 40px;
+	margin-top: 10px;
+	border-top: 5px solid #333;
+	padding-top: 20px;
+	background-color: #1A1A1A;
+}
+
+.footer p {
+	color: #FAFAFA;
+	text-align: center;
 }
