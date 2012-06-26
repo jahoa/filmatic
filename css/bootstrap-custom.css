@@ -2,21 +2,27 @@ body {
   padding-top: 110px;
 }
 
+	
 .navbar-inner {
-  height: 100px;
+  height: 68px;
   background-color: #2e2e2f;
   background-image: url("../img/header_bg.png");
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.55);
 }
 
 .navbar-inner a {
  color: #a09b9b; 
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .navbar {
   font-family: 'Oswald';
   font-size: 18px;
   font-weight: 300;
+}
+
+.nav img {
+	height: 30px;
 }
 
 .well {
