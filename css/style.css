@@ -33,22 +33,25 @@ h3 {
   text-align: center;
 }
 
-.trailer img {
-  height: 165px;
-  width: 220px;
+.item {
+	margin-bottom: 25px;
 }
 
 .heading_bg {
 	height: 34px;
   background-color: #b62f30;
   background-image: url("../img/heading_bg.png");
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .heading_bg h3 {
   padding-left: 5px;
   color: #f5f4f4;
   text-shadow: #323131 1px 1px 0px;
+}
+
+.genres {
+	margin-top: 10px;
 }
 
 .ranking {
