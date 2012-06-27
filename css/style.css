@@ -23,6 +23,10 @@ h4 {
   margin-bottom: 20px;
 }
 
+.fim-overview {
+	max-width: 150px;
+}
+
 .logo {
   margin-top: 10px;
   margin-right: 10px;
