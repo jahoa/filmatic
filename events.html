@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>Veranstaltungen</title>
  <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
      <link href="css/bootstrap-custom.css" rel="stylesheet">
@@ -14,7 +15,7 @@
 
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap-collapse.js" type="text/javascript"></script>
+  
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="ico/favicon.ico">
@@ -56,7 +57,6 @@
 
     <div class="container">
     
-     <a href="community.html">ZurŸck</a>
      <div class="row">
       <div class="span6">
         <div class="heading_bg">
@@ -73,9 +73,9 @@
 	           <h3>Dark Knight</h3>
 	           <h4>Metropol Stuttgart</h4>
 	     	     <div class="response">
-	     	     <a class="btn"><i class="icon-ok"></i></a>
-	     	     <a class="btn"><i class="icon-remove"></i></a>
-	     	</div>
+		     	     <a class="btn"><i class="icon-ok"></i></a>
+		     	     <a class="btn"><i class="icon-remove"></i></a>
+	     		</div>
 	     	   <img src="http://placehold.it/60x60" />
 	     	   <img src="http://placehold.it/60x60" />
 	     	   <img src="http://placehold.it/60x60" />
@@ -86,42 +86,68 @@
      	
      	<h3>Juli</h3>
      	
-     	<div class="span6">
-     	<a data-toggle="collapse" data-target="#event1">
-     	<span class="label" style="float:left ; margin-right: 5px;">Datum</span><h3 style="float:left ;">Dark Knight</h3>
-     	</a>
-     	</div>
-     	 <br />
-     	<div id="event1" class="collapse span6"><h4>Metropol Stuttgart</h4>
-     	   <div class="response">
-     	  	 <a class="btn"><i class="icon-ok"></i></a>
-     	   	<a class="btn"><i class="icon-remove"></i></a>
-     	   </div>
-	     	 <img src="http://placehold.it/60x60" />
-	     	 <img src="http://placehold.it/60x60" />
-	     	 <img src="http://placehold.it/60x60" />
-	     </div>	
-      
-        
-      <div class="span6">
-      <a data-toggle="collapse" data-target="#event2">
-      	<span class="label" style="float:left ; margin-right: 5px;">Datum</span><h3 style="float:left ;">Dark Shadows</h3>
-      	</a>
-      </div>
-      	 <br />
-      	<div id="event2" class="collapse span6"><h4>Metropol Stuttgart</h4>
-      	   <div class="response">
-      	  	 <a class="btn"><i class="icon-ok"></i></a>
-      	   	 <a class="btn"><i class="icon-remove"></i></a>
-      	   </div>
-         	 <img src="http://placehold.it/60x60" />
-         	 <img src="http://placehold.it/60x60" />
-         	 <img src="http://placehold.it/60x60" />
-        </div>	
-      
-      </div>
-      
-      <div class="span6">
+     	<div class="accordion" id="accordion2" data-collapse-type="manual">
+     	        <div class="accordion-group">
+     	          <div class="accordion-heading">
+     	            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+     	             <span class="label">Datum</span>Dark Shadows
+     	            </a>
+     	          </div>
+     	          <div id="collapseOne" class="accordion-body collapse">
+     	            <div class="accordion-inner">
+	     	              <h4>Metropol Stuttgart</h4>
+	     	                 <div class="response">
+	     	              	     <a class="btn"><i class="icon-ok"></i></a>
+	     	              	     <a class="btn"><i class="icon-remove"></i></a>
+	     	              	</div>
+	     	               <img src="http://placehold.it/60x60" />
+	     	               <img src="http://placehold.it/60x60" />
+	     	               <img src="http://placehold.it/60x60" />
+     	              </div>
+     	          </div>
+     	        </div>
+     	        <div class="accordion-group">
+     	          <div class="accordion-heading">
+     	            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+     	             <span class="label">Datum</span>Spider Man
+     	            </a>
+     	          </div>
+     	          <div id="collapseTwo" class="accordion-body collapse">
+     	            <div class="accordion-inner">
+	     	             <h4>Metropol Stuttgart</h4>
+	     	                <div class="response">
+	     	             	     <a class="btn"><i class="icon-ok"></i></a>
+	     	             	     <a class="btn"><i class="icon-remove"></i></a>
+	     	             	</div>
+		     	              <img src="http://placehold.it/60x60" />
+		     	              <img src="http://placehold.it/60x60" />
+		     	              <img src="http://placehold.it/60x60" />     	            
+     	              </div>
+     	          </div>
+     	        </div>
+     	        <div class="accordion-group">
+     	          <div class="accordion-heading">
+     	            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+     	              <span class="label">Datum</span>Inception
+     	            </a>
+     	          </div>
+     	          <div id="collapseThree" class="accordion-body collapse">
+     	            <div class="accordion-inner">
+     	           	<h4>Metropol Stuttgart</h4>
+     	              <div class="response">
+     	           	     <a class="btn"><i class="icon-ok"></i></a>
+     	           	     <a class="btn"><i class="icon-remove"></i></a>
+     	           		</div>
+	     	            	<img src="http://placehold.it/60x60" />
+	     	            	<img src="http://placehold.it/60x60" />
+	     	            	<img src="http://placehold.it/60x60" />     	            
+     	            </div>
+     	          </div>
+     	        </div>
+     	      </div>
+         	</div>
+     		
+	 <div class="span6">
       <div class="heading_bg">
       <h3>Neues Event</h3>
       </div>
