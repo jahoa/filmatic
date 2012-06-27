@@ -19,6 +19,16 @@ h4 {
   text-shadow: #323131 1px 1px 0px;
 }
 
+a {
+	color: #f2f1f1;
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #f2f1f1;
+	background-color: #ba3334;
+}
 .film-overview {
   margin-bottom: 20px;
 }
