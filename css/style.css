@@ -66,6 +66,8 @@ a:hover {
   padding-left: 5px;
   color: #f5f4f4;
   text-shadow: #323131 1px 1px 0px;
+  font-family: 'Oswald', Verdana, Tahoama, 'AllerRegular';
+  white-space: normal;
 }
 
 .genres {
