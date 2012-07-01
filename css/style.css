@@ -28,6 +28,69 @@ a:hover {
 	text-decoration: none;
 	color: #f2f1f1;
 }
+
+.hr {
+	background-image: url("../img/hr.png");
+}
+
+.filter-search {
+	border-bottom: 2px solid #000000;
+	-webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+ 	box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+ 	margin-bottom: 25px;
+ 	padding-bottom: 0;
+}
+
+.btn-filter {
+  
+  display: inline-block;
+   padding: 4px 10px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  
+  color: #000000;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+ 
+ background-image: url("../img/btn-filter-bg.png");
+  background-repeat: repeat-x;
+   border: 0;
+  border-bottom: none;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+
+.btn-filter:hover{
+  color: #333333;
+  text-decoration: none;
+ 
+  background-image: url("../img/btn-filter-bg-pressed.png");
+ background-position: 0 0;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
+.btn-group.open .dropdown-toggle {
+   color: #333333;
+    text-decoration: none;
+   
+    background-image: url("../img/btn-filter-bg-pressed.png");
+   background-position: 0 0;
+}
+   
 .film-overview {
   margin-bottom: 20px;
 }
