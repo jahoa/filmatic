@@ -54,6 +54,16 @@ li {
 	color: #FAFAFA;
 }
 
+.progress  {
+	background-color: #36373a;
+	background-image: none;
+}
+
+.progress .bar {
+	background-color: #969ba4;
+	background-image:  url("../img/btn-bg.png");
+}
+
 
 .navbar-search input[type="text"] {
 	-webkit-border-radius: 0px;
