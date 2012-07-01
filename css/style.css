@@ -173,6 +173,7 @@ small {
   text-shadow: #323131 1px 1px 0px;
   font-family: 'Oswald', Verdana, Tahoama, 'AllerRegular';
   white-space: normal;
+  letter-spacing:0.03em;
 }
 
 .genres {
