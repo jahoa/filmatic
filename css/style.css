@@ -84,7 +84,7 @@ small {
 }
 
 .btn-custom {
-  
+  height: 26px;
   display: inline-block;
    padding: 4px 20px 4px;
   margin-bottom: 0;
@@ -110,11 +110,11 @@ small {
 }
 
 .btn-custom:hover{
-  color: #FFFFFF;
-   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  color: #000000;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   text-decoration: none;
  
-  background-image: url("../img/btn-filter-bg-pressed.png");
+  background-image: url("../img/btn-bg-pressed.png");
  background-position: 0 0;
   /* Buttons in IE7 don't get borders, so darken on hover */
   -webkit-transition: none;
