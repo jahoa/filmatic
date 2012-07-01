@@ -57,20 +57,20 @@ a:hover {
  
  background-image: url("../img/btn-filter-bg.png");
   background-repeat: repeat-x;
-   border: 0;
+   border: 1px solid #000000;
   border-bottom: none;
   -webkit-border-radius: 0px;
      -moz-border-radius: 0px;
           border-radius: 0px;
 
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 0 1px 5px  rgba(0, 0,0, 0.5);
+          box-shadow: 0 1px 5px  rgba(0, 0, 0, 0.5);
 }
 
-
 .btn-filter:hover{
-  color: #333333;
+  color: #FFFFFF;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
   text-decoration: none;
  
   background-image: url("../img/btn-filter-bg-pressed.png");
@@ -82,6 +82,48 @@ a:hover {
        -o-transition: none;
           transition: none;
 }
+
+.btn-custom {
+  
+  display: inline-block;
+   padding: 4px 20px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  
+  color: #000000;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+ 
+ background-image: url("../img/btn-bg.png");
+  background-repeat: repeat-x;
+   border: 1px solid #000000;
+  border-bottom: none;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 0 1px 5px  rgba(0, 0,0, 0.5);
+          box-shadow: 0 1px 5px  rgba(0, 0, 0, 0.5);
+}
+
+.btn-custom:hover{
+  color: #FFFFFF;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+ 
+  background-image: url("../img/btn-filter-bg-pressed.png");
+ background-position: 0 0;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
 
 .btn-group.open .dropdown-toggle {
    color: #333333;
