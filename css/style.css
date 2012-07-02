@@ -21,7 +21,7 @@ h4 {
 
 a {
 	color: #f2f1f1;
-	text-transform: uppercase;
+	.text-transform: uppercase;
 }
 
 a:hover {
@@ -126,11 +126,17 @@ small {
 
 
 .btn-group.open .dropdown-toggle {
-   color: #333333;
+   color: #FAFAFA;
     text-decoration: none;
    
     background-image: url("../img/btn-filter-bg-pressed.png");
    background-position: 0 0;
+}
+   
+.dropdown-menu   {
+	background-color: #d0d3d6;
+	 border-radius: 2px 2px 2px 2px;
+	
 }
    
 .film-overview {
@@ -157,14 +163,14 @@ small {
 }
 
 .item {
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 
 .heading_bg {
 	height: 34px;
   background-color: #b62f30;
   background-image: url("../img/heading_bg.png");
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .heading_bg h3 {
