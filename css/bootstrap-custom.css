@@ -29,9 +29,20 @@ li {
 }
 
 .nav img {
-	height: 30px;
+	height: 40px;
 }
 
+.nav li {
+	max-width: 100px;
+	border-right: 0.12em solid #222427;
+	max-width: 100px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+}
+
+.btn-group img {
+	height: 34px;
+}
 .well {
   padding: 5px;
   margin-bottom: 20px;
