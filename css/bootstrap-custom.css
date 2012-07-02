@@ -65,6 +65,34 @@ li {
 	color: #FAFAFA;
 }
 
+.form-horizontal .control-label {
+	text-align: left;
+	color: #FAFAFA;
+	width: 90px;
+}
+
+.form-horizontal .controls {
+	margin-left: 50px;
+}
+
+.form-horizontal input[type="text"] {
+	background-color: rgba(32, 34, 38, 0.4);
+	border: 1px solid #000000;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	        border-radius: 0px;
+	         height: 26px;
+	         color: #FAFAFA;
+}
+
+.form-actions {
+	margin-top: -25px;
+	background-color: none;
+	border-top: none;
+}
+.form-horizontal .form-actions {
+	padding-left: 0;
+}
 .progress {
 	background-color:#36373a;
 	background-image:none;

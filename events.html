@@ -64,7 +64,7 @@
         </div>
         <h3>Juni</h3>
         
-        	<div class="row" style="margin-bottom: 10px;">
+        	<div class="row events-title" style="margin-bottom: 10px;">
         	<div class="span1">
 	        		<img src="img/date-05.png" style="margin-right: 5px;margin-bottom: 5px;float: left;"/>
 	        		<img src="img/th_film.jpg"/>
@@ -94,12 +94,12 @@
 	     	          </div>
 	     	          <div class="span5">
 							<a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-							 <h3>Dark Shadows</h3>
+							 <h3>Dark Shadows <img src="img/btn-down.png" class="pull-right" style="max-width: 30px; margin-right: 5px; margin-top: 15px;" /></h3>
 							</a>
 					  </div>
       	          </div>
       	          
-     	          <div id="collapseOne" class="row collapse">
+     	          <div id="collapseOne" class="row collapse collapse-style">
      	          
      	             <div class="span1">
      	             	<img src="img/th_film.jpg"/>
@@ -118,18 +118,18 @@
 				 </div>
      	       </div> 
      	        <div class="film2" style="margin-bottom:10px ;">
-     	        	 <div class="row">
+     	        	 <div class="row events-title">
      	         	          <div class="span1">
      	         	          	<img src="img/date-05.png" style="margin-right: 5px;margin-bottom: 5px;float: left;"/>
      	         	          </div>
      	         	          <div class="span5">
      	        					<a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-     	        					 <h3>Dark Shadows</h3>
+     	        					 <h3>Dark Shadows <img src="img/btn-down.png" class="pull-right" style="max-width: 30px; margin-right: 5px; margin-top: 15px;" /></h3>
      	        					</a>
      	        			  </div>
      	        	          </div>
      	        	          
-     	        	          <div id="collapseTwo" class="row collapse">
+     	        	          <div id="collapseTwo" class="row collapse collapse-style">
      	        	             <div class="span1">
      	        	             	<img src="img/th_film.jpg"/>
      	        	            </div>
@@ -146,18 +146,18 @@
      	        		 </div>
      	        	       </div>
      	        	       <div class="film3" style="margin-bottom:10px ;">
-     	        	       	 <div class="row">
+     	        	       	 <div class="row events-title">
      	        	        	          <div class="span1">
      	        	        	          	<img src="img/date-16.png" style="margin-right: 5px;margin-bottom: 5px;float: left;"/>
      	        	        	          </div>
      	        	        	          <div class="span5">
      	        	       					<a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-     	        	       					 <h3>Inception</h3>
+     	        	       					 <h3>Inception<img src="img/btn-down.png" class="pull-right" style="max-width: 30px; margin-right: 5px; margin-top: 15px;" /></h3>
      	        	       					</a>
      	        	       			  </div>
      	        	       	          </div>
      	        	       	          
-     	        	       	          <div id="collapseThree" class="row collapse">
+     	        	       	          <div id="collapseThree" class="row collapse collapse-style">
      	        	       	             <div class="span1">
      	        	       	             	<img src="img/th_film.jpg"/>
      	        	       	            </div>
@@ -178,7 +178,7 @@
      		
 	 <div id="newEvent" class="span6 collapse">
       <div class="heading_bg">
-      <h3>Neues Event</h3>
+      <h3>Neues Event erstellen</h3>
       </div>
          
        
@@ -187,42 +187,44 @@
                	<div class="control-group">
        	           	<label class="control-label" for="input01">Titel</label>
        	           	<div class="controls">
-       		           	<input type="text" class="input-xlarge" id="input01">
+       		           	<input type="text" class="input-xlarge" id="input01" value="z.B. Filmabend">
        				</div>
                	</div>
                	<div class="control-group">
                		<label class="control-label" for="input02">Film</label>
                		<div class="controls">
-               	    	<input type="text" class="input-xlarge" id="input02">
+               	    	<input type="text" class="input-xlarge" id="input02" value="z.B. Marry Poppins, Spiderman">
                		</div>
                	</div>
                	<div class="control-group">
                		<label class="control-label" for="input03">Datum</label>
                		<div class="controls">
-               	    	<input type="text" class="input-xlarge" id="input03">
+               	    	<input type="text" class="input-xlarge" id="input03" value="TT.MM.JJJJ">
                		</div>
                	</div>
                	<div class="control-group">
                		<label class="control-label" for="input04">Uhrzeit</label>
                		<div class="controls">
-               	    	<input type="text" class="input-xlarge" id="input04">
+               	    	<input type="text" class="input-xlarge" id="input04" value="00:00">
                		</div>
                	</div>
                	<div class="control-group">
                		<label class="control-label" for="input05">Ort</label>
                		<div class="controls">
-               	    	<input type="text" class="input-xlarge" id="input05">
+               	    	<input type="text" class="input-xlarge" id="input05" value="Kino, Adresse">
                		</div>
                	</div>
                	<div class="control-group">
                		<label class="control-label" for="input06">Teilnehmer</label>
                		<div class="controls">
-               	    	<input type="text" class="input-xlarge" id="input06">
+               	    	<input type="text" class="input-xlarge" id="input06" value="Freunde einladen" style="height:60px">
                		</div>
                	</div>
+               <hr />
                <div class="form-actions">
-               <button class="btn btn-primary" type="submit">Event erstellen</button>
-               <button class="btn">Abbrechen</button>
+              <img src="img/btn-erstellen.png" />
+              <img src="img/btn-abbrechen.png" />
+                           
                </div>
            	</fieldset>
            	</form>
