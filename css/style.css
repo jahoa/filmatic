@@ -183,7 +183,7 @@ small {
 }
 
 
-.collapse, .events-title {
+.collapse, .events-title, .recommend, .userprofile, .events, .discussion, .messages	 {
 	background-color: rgba(23, 23, 23, .4);
 	.border: 1px solid #000000;
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
@@ -248,15 +248,12 @@ hr {
 }
 
 
-.recommend, .userprofile, .discussion, .events, .messages {
-	.height: 160px;
-	background-color: #2e2e2f;
-}
+
 
 .recommend h3, .userprofile h3, .discussion h3, .events h3, .messages h3 {
 	padding: 40px;
 	text-align: center;
-	color: #a09b9b; 
+	color: #FAFAFA; 
 } 
 
 .recommend a:hover, .userprofile a:hover, .discussion a:hover, .events a:hover, .messages a:hover {
