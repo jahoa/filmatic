@@ -182,6 +182,12 @@ small {
   letter-spacing:0.03em;
 }
 
+
+.collapse, .events-title {
+	background-color: rgba(23, 23, 23, .4);
+	.border: 1px solid #000000;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
 .genres {
 	margin-top: 10px;
 }
