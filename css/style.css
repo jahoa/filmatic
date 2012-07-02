@@ -231,6 +231,10 @@ hr {
 	height: 7px;
 }
 
+.facts hr {
+	margin: 0;
+}
+
 
 .recommend, .userprofile, .discussion, .events, .messages {
 	.height: 160px;
