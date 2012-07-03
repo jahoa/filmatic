@@ -112,3 +112,8 @@ li {
 	        padding: 5px;
 	        height: 26px;
 }
+
+.modal {
+	margin: -410px 0 0 -480px;
+	    width: 990px;
+}
