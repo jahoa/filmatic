@@ -40,9 +40,7 @@ li {
 	    padding-right: 20px;
 }
 
-.btn-group img {
-	height: 34px;
-}
+
 .well {
   padding: 5px;
   margin-bottom: 20px;
@@ -63,6 +61,10 @@ li {
 
 .table {
 	color: #FAFAFA;
+}
+
+.btn-group img {
+	height: 34px;
 }
 
 .form-horizontal .control-label {
