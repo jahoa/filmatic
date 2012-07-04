@@ -77,13 +77,22 @@ li {
 	margin-left: 50px;
 }
 
-.form-horizontal input[type="text"] {
+.form-horizontal input[type="text"]{
 	background-color: rgba(32, 34, 38, 0.4);
 	border: 1px solid #000000;
 	-webkit-border-radius: 0px;
 	   -moz-border-radius: 0px;
 	        border-radius: 0px;
 	         height: 26px;
+	         color: #FAFAFA;
+}
+
+.navbar-search .search-query, .navbar-search .search-query {
+	background-color: rgba(32, 34, 38, 0.4);
+	border: 1px solid #000000;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+	        border-radius: 0px;
 	         color: #FAFAFA;
 }
 
