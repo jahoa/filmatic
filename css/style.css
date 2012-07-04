@@ -145,10 +145,14 @@ small {
 .logo {
   margin-top: 10px;
   margin-right: 10px;
-  background-color: #b7494a;
-  padding: 10px;
+    padding: 10px;
   
 }
+
+.logo img {
+	height: 26px;
+}
+
 .logo a {
   color: #f5e7e7;
 }
